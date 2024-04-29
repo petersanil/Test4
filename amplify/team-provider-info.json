@@ -1,4 +1,17 @@
 {
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-kiosk-staging-fe4e0-authRole",
+      "UnauthRoleArn": "arn:aws:iam::975049985272:role/amplify-kiosk-staging-fe4e0-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::975049985272:role/amplify-kiosk-staging-fe4e0-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-kiosk-staging-fe4e0-deployment",
+      "UnauthRoleName": "amplify-kiosk-staging-fe4e0-unauthRole",
+      "StackName": "amplify-kiosk-staging-fe4e0",
+      "StackId": "arn:aws:cloudformation:us-east-1:975049985272:stack/amplify-kiosk-staging-fe4e0/31f9c710-062e-11ef-a85c-0e072f2eb39f",
+      "AmplifyAppId": "d2ww9shcv0g8m3"
+    }
+  },
   "dev": {
     "awscloudformation": {
       "AuthRoleName": "amplify-aquaventureflutter-dev-dc166-authRole",
