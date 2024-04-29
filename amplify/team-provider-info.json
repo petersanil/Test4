@@ -1,0 +1,272 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-aquaventureflutter-dev-dc166-authRole",
+      "UnauthRoleArn": "arn:aws:iam::594802510613:role/amplify-aquaventureflutter-dev-dc166-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::594802510613:role/amplify-aquaventureflutter-dev-dc166-authRole",
+      "Region": "me-south-1",
+      "DeploymentBucketName": "amplify-aquaventureflutter-dev-dc166-deployment",
+      "UnauthRoleName": "amplify-aquaventureflutter-dev-dc166-unauthRole",
+      "StackName": "amplify-aquaventureflutter-dev-dc166",
+      "StackId": "arn:aws:cloudformation:me-south-1:594802510613:stack/amplify-aquaventureflutter-dev-dc166/0c5a25b0-ee21-11ee-a865-0a4aadbc418c",
+      "AmplifyAppId": "d3edrf556rhpgy",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-aquaventureflutter-dev-dc166-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
+    },
+    "categories": {
+      "function": {
+        "cacheEntitlements": {
+          "securityGroupIds": "sg-0a6dfd9d6be3ebd73",
+          "subnetIds": "subnet-05b96f16d3459c723,subnet-0943a9e134c850214",
+          "deploymentBucketName": "amplify-aquaventureflutter-dev-dc166-deployment",
+          "s3Key": "amplify-builds/cacheEntitlements-52634834465430343738-build.zip"
+        },
+        "findMyFriends": {
+          "securityGroupIds": "sg-0a6dfd9d6be3ebd73",
+          "subnetIds": "subnet-05b96f16d3459c723,subnet-0943a9e134c850214",
+          "deploymentBucketName": "amplify-aquaventureflutter-dev-dc166-deployment",
+          "s3Key": "amplify-builds/findMyFriends-514b62326f5367545a32-build.zip"
+        },
+        "linkWristBand": {
+          "securityGroupIds": "sg-0a6dfd9d6be3ebd73",
+          "subnetIds": "subnet-05b96f16d3459c723,subnet-0943a9e134c850214",
+          "deploymentBucketName": "amplify-aquaventureflutter-dev-dc166-deployment",
+          "s3Key": "amplify-builds/linkWristBand-326565472b4f65586a70-build.zip"
+        },
+        "listEntitlementsPurchase": {
+          "securityGroupIds": "sg-0a6dfd9d6be3ebd73",
+          "subnetIds": "subnet-05b96f16d3459c723,subnet-0943a9e134c850214",
+          "deploymentBucketName": "amplify-aquaventureflutter-dev-dc166-deployment",
+          "s3Key": "amplify-builds/listEntitlementsPurchase-376d6e55565472517465-build.zip"
+        },
+        "manageLocationData": {
+          "securityGroupIds": "sg-0a6dfd9d6be3ebd73",
+          "subnetIds": "subnet-05b96f16d3459c723,subnet-0943a9e134c850214",
+          "deploymentBucketName": "amplify-aquaventureflutter-dev-dc166-deployment",
+          "s3Key": "amplify-builds/manageLocationData-376f47486c63796e3352-build.zip"
+        },
+        "receivecallback": {
+          "securityGroupIds": "sg-0a6dfd9d6be3ebd73",
+          "subnetIds": "subnet-05b96f16d3459c723,subnet-0943a9e134c850214",
+          "deploymentBucketName": "amplify-aquaventureflutter-dev-dc166-deployment",
+          "s3Key": "amplify-builds/receivecallback-475276514c7a69487a47-build.zip"
+        },
+        "viewEntitlements": {
+          "securityGroupIds": "sg-0a6dfd9d6be3ebd73",
+          "subnetIds": "subnet-05b96f16d3459c723,subnet-0943a9e134c850214",
+          "deploymentBucketName": "amplify-aquaventureflutter-dev-dc166-deployment",
+          "s3Key": "amplify-builds/viewEntitlements-4b736371795730374e31-build.zip"
+        },
+        "addGuestPass": {
+          "deploymentBucketName": "amplify-aquaventureflutter-dev-dc166-deployment",
+          "s3Key": "amplify-builds/addGuestPass-774e5a744a4a6d483139-build.zip"
+        },
+        "addLinkSharedCC": {
+          "deploymentBucketName": "amplify-aquaventureflutter-dev-dc166-deployment",
+          "s3Key": "amplify-builds/addLinkSharedCC-326d74376b6c546d3352-build.zip"
+        },
+        "addPartyMember": {
+          "deploymentBucketName": "amplify-aquaventureflutter-dev-dc166-deployment",
+          "s3Key": "amplify-builds/addPartyMember-34307963316c43647846-build.zip"
+        },
+        "aquaventureflutterCreateAuthChallenge": {
+          "deploymentBucketName": "amplify-aquaventureflutter-dev-dc166-deployment",
+          "s3Key": "amplify-builds/aquaventureflutterCreateAuthChallenge-31306f357374634d6f56-build.zip"
+        },
+        "aquaventureflutterCustomMessage": {
+          "deploymentBucketName": "amplify-aquaventureflutter-dev-dc166-deployment",
+          "s3Key": "amplify-builds/aquaventureflutterCustomMessage-4d4c4d4e4a6459783278-build.zip"
+        },
+        "aquaventureflutterDefineAuthChallenge": {
+          "deploymentBucketName": "amplify-aquaventureflutter-dev-dc166-deployment",
+          "s3Key": "amplify-builds/aquaventureflutterDefineAuthChallenge-727363353353707a7579-build.zip"
+        },
+        "aquaventureflutterPreSignup": {
+          "deploymentBucketName": "amplify-aquaventureflutter-dev-dc166-deployment",
+          "s3Key": "amplify-builds/aquaventureflutterPreSignup-4c616c3068677967547a-build.zip"
+        },
+        "aquaventureflutterVerifyAuthChallengeResponse": {
+          "deploymentBucketName": "amplify-aquaventureflutter-dev-dc166-deployment",
+          "s3Key": "amplify-builds/aquaventureflutterVerifyAuthChallengeResponse-636a696f435850364562-build.zip"
+        },
+        "aquaventureflutterutils": {
+          "deploymentBucketName": "amplify-aquaventureflutter-dev-dc166-deployment",
+          "s3Key": "amplify-builds/aquaventureflutterutils-LambdaLayerVersion744a63b0-build.zip"
+        },
+        "authorizerLambda": {
+          "deploymentBucketName": "amplify-aquaventureflutter-dev-dc166-deployment",
+          "s3Key": "amplify-builds/authorizerLambda-632b374357784553616d-build.zip"
+        },
+        "ccLimitParty": {
+          "deploymentBucketName": "amplify-aquaventureflutter-dev-dc166-deployment",
+          "s3Key": "amplify-builds/ccLimitParty-73562b4c4658314b656d-build.zip"
+        },
+        "checkCCstatus": {
+          "deploymentBucketName": "amplify-aquaventureflutter-dev-dc166-deployment",
+          "s3Key": "amplify-builds/checkCCstatus-2b624945466f366c7836-build.zip"
+        },
+        "createSessionData": {
+          "deploymentBucketName": "amplify-aquaventureflutter-dev-dc166-deployment",
+          "s3Key": "amplify-builds/createSessionData-6f303570555059443764-build.zip"
+        },
+        "decodeEntitlements": {
+          "deploymentBucketName": "amplify-aquaventureflutter-dev-dc166-deployment",
+          "s3Key": "amplify-builds/decodeEntitlements-7147674d6f2b30505035-build.zip"
+        },
+        "deleteAccount": {
+          "deploymentBucketName": "amplify-aquaventureflutter-dev-dc166-deployment",
+          "s3Key": "amplify-builds/deleteAccount-366e6846577a664a316c-build.zip"
+        },
+        "deleteCCInfo": {
+          "deploymentBucketName": "amplify-aquaventureflutter-dev-dc166-deployment",
+          "s3Key": "amplify-builds/deleteCCInfo-62437974415a3771527a-build.zip"
+        },
+        "deleteToken": {
+          "deploymentBucketName": "amplify-aquaventureflutter-dev-dc166-deployment",
+          "s3Key": "amplify-builds/deleteToken-344e55774a6b35586939-build.zip"
+        },
+        "generateJwt": {
+          "deploymentBucketName": "amplify-aquaventureflutter-dev-dc166-deployment",
+          "s3Key": "amplify-builds/generateJwt-4c3266346a67324f6966-build.zip"
+        },
+        "getCarouselImgs": {
+          "deploymentBucketName": "amplify-aquaventureflutter-dev-dc166-deployment",
+          "s3Key": "amplify-builds/getCarouselImgs-69696c777043426d366b-build.zip"
+        },
+        "makePayment": {
+          "deploymentBucketName": "amplify-aquaventureflutter-dev-dc166-deployment",
+          "s3Key": "amplify-builds/makePayment-4a73584a4c306e417871-build.zip"
+        },
+        "makePaymentEcommerce": {
+          "deploymentBucketName": "amplify-aquaventureflutter-dev-dc166-deployment",
+          "s3Key": "amplify-builds/makePaymentEcommerce-35753730366665304935-build.zip"
+        },
+        "notifyEntitlementsProcessingFailed": {
+          "deploymentBucketName": "amplify-aquaventureflutter-dev-dc166-deployment",
+          "s3Key": "amplify-builds/notifyEntitlementsProcessingFailed-736c7152415230306d4a-build.zip"
+        },
+        "processTransaction": {
+          "deploymentBucketName": "amplify-aquaventureflutter-dev-dc166-deployment",
+          "s3Key": "amplify-builds/processTransaction-6f3676316a2f33682b4d-build.zip"
+        },
+        "redirectCallback": {
+          "deploymentBucketName": "amplify-aquaventureflutter-dev-dc166-deployment",
+          "s3Key": "amplify-builds/redirectCallback-3542436b2b524d625239-build.zip"
+        },
+        "removeLinkSharedCC": {
+          "deploymentBucketName": "amplify-aquaventureflutter-dev-dc166-deployment",
+          "s3Key": "amplify-builds/removeLinkSharedCC-4737686b507a6f6b657a-build.zip"
+        },
+        "sendOtpCode": {
+          "deploymentBucketName": "amplify-aquaventureflutter-dev-dc166-deployment",
+          "s3Key": "amplify-builds/sendOtpCode-6173664f4d384a447734-build.zip"
+        },
+        "setUsersPin": {
+          "deploymentBucketName": "amplify-aquaventureflutter-dev-dc166-deployment",
+          "s3Key": "amplify-builds/setUsersPin-512f7a7a2f504f684653-build.zip"
+        },
+        "storeToken": {
+          "deploymentBucketName": "amplify-aquaventureflutter-dev-dc166-deployment",
+          "s3Key": "amplify-builds/storeToken-6f6441446364324e4950-build.zip"
+        },
+        "storeTransaction": {
+          "deploymentBucketName": "amplify-aquaventureflutter-dev-dc166-deployment",
+          "s3Key": "amplify-builds/storeTransaction-47477442785165783839-build.zip"
+        },
+        "storeVisits": {
+          "deploymentBucketName": "amplify-aquaventureflutter-dev-dc166-deployment",
+          "s3Key": "amplify-builds/storeVisits-42456679354441496e6c-build.zip"
+        },
+        "updateEntitlementsPurchase": {
+          "deploymentBucketName": "amplify-aquaventureflutter-dev-dc166-deployment",
+          "s3Key": "amplify-builds/updateEntitlementsPurchase-41654f4e637463614636-build.zip"
+        },
+        "updateLinkSharedCC": {
+          "deploymentBucketName": "amplify-aquaventureflutter-dev-dc166-deployment",
+          "s3Key": "amplify-builds/updateLinkSharedCC-4a30774e75526344324b-build.zip"
+        },
+        "verifyOtpCodeAndUpdatePhone": {
+          "deploymentBucketName": "amplify-aquaventureflutter-dev-dc166-deployment",
+          "s3Key": "amplify-builds/verifyOtpCodeAndUpdatePhone-76725a6c335956762b65-build.zip"
+        },
+        "waitTimes": {
+          "deploymentBucketName": "amplify-aquaventureflutter-dev-dc166-deployment",
+          "s3Key": "amplify-builds/waitTimes-79576d694c432f544242-build.zip"
+        },
+        "wristbandHasCC": {
+          "deploymentBucketName": "amplify-aquaventureflutter-dev-dc166-deployment",
+          "s3Key": "amplify-builds/wristbandHasCC-392f2b6e5a75656e584f-build.zip"
+        },
+        "aquaventureflutter": {}
+      },
+      "auth": {
+        "aquaventureflutter": {}
+      },
+      "storage": {
+        "S3images": {}
+      }
+    }
+  },
+  "sheminn": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-aquaventureflutter-sheminn-193328-authRole",
+      "UnauthRoleArn": "arn:aws:iam::594802510613:role/amplify-aquaventureflutter-sheminn-193328-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::594802510613:role/amplify-aquaventureflutter-sheminn-193328-authRole",
+      "Region": "me-south-1",
+      "DeploymentBucketName": "amplify-aquaventureflutter-sheminn-193328-deployment",
+      "UnauthRoleName": "amplify-aquaventureflutter-sheminn-193328-unauthRole",
+      "StackName": "amplify-aquaventureflutter-sheminn-193328",
+      "StackId": "arn:aws:cloudformation:me-south-1:594802510613:stack/amplify-aquaventureflutter-sheminn-193328/5008fc80-f355-11ee-a096-068fedfc2b95",
+      "AmplifyAppId": "d3edrf556rhpgy"
+    },
+    "categories": {
+      "auth": {
+        "aquaventureflutter": {}
+      },
+      "function": {
+        "addGuestPass": {},
+        "addLinkSharedCC": {},
+        "addPartyMember": {},
+        "aquaventureflutterCreateAuthChallenge": {},
+        "aquaventureflutterCustomMessage": {},
+        "aquaventureflutterDefineAuthChallenge": {},
+        "aquaventureflutterPreSignup": {},
+        "aquaventureflutterVerifyAuthChallengeResponse": {},
+        "aquaventureflutterutils": {},
+        "authorizerLambda": {},
+        "cacheEntitlements": {},
+        "ccLimitParty": {},
+        "checkCCstatus": {},
+        "createSessionData": {},
+        "decodeEntitlements": {},
+        "deleteAccount": {},
+        "deleteCCInfo": {},
+        "deleteToken": {},
+        "findMyFriends": {},
+        "generateJwt": {},
+        "getCarouselImgs": {},
+        "linkWristBand": {},
+        "listEntitlementsPurchase": {},
+        "makePayment": {},
+        "makePaymentEcommerce": {},
+        "manageLocationData": {},
+        "notifyEntitlementsProcessingFailed": {},
+        "processTransaction": {},
+        "receivecallback": {},
+        "redirectCallback": {},
+        "removeLinkSharedCC": {},
+        "sendOtpCode": {},
+        "setUsersPin": {},
+        "storeToken": {},
+        "storeTransaction": {},
+        "storeVisits": {},
+        "updateEntitlementsPurchase": {},
+        "updateLinkSharedCC": {},
+        "verifyOtpCodeAndUpdatePhone": {},
+        "viewEntitlements": {},
+        "waitTimes": {},
+        "wristbandHasCC": {},
+        "aquaventureflutter": {}
+      }
+    }
+  }
+}
