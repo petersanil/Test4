@@ -1,0 +1,343 @@
+PODS:
+  - Adyen (5.4.1):
+    - Adyen/Actions (= 5.4.1)
+    - Adyen/Card (= 5.4.1)
+    - Adyen/Components (= 5.4.1)
+    - Adyen/Core (= 5.4.1)
+    - Adyen/DropIn (= 5.4.1)
+    - Adyen/Encryption (= 5.4.1)
+    - Adyen/Session (= 5.4.1)
+  - Adyen/Actions (5.4.1):
+    - Adyen/Core
+    - Adyen3DS2 (= 2.3.3)
+  - Adyen/Card (5.4.1):
+    - Adyen/Core
+    - Adyen/Encryption
+  - Adyen/Components (5.4.1):
+    - Adyen/Core
+    - Adyen/Encryption
+  - Adyen/Core (5.4.1):
+    - AdyenNetworking (= 2.0.0)
+  - Adyen/DropIn (5.4.1):
+    - Adyen/Actions
+    - Adyen/Card
+    - Adyen/Components
+    - Adyen/Core
+    - Adyen/Encryption
+  - Adyen/Encryption (5.4.1):
+    - Adyen/Core
+  - Adyen/Session (5.4.1):
+    - Adyen/Actions
+    - Adyen/Core
+  - Adyen3DS2 (2.3.3)
+  - AdyenNetworking (2.0.0)
+  - Amplify (1.29.2):
+    - Amplify/Default (= 1.29.2)
+  - Amplify/Default (1.29.2)
+  - amplify_api_ios (0.0.1):
+    - Amplify (= 1.29.2)
+    - amplify_flutter_ios
+    - AmplifyPlugins/AWSAPIPlugin (= 1.29.2)
+    - Flutter
+  - amplify_auth_cognito_ios (0.0.1):
+    - Amplify (= 1.29.2)
+    - amplify_flutter_ios
+    - Flutter
+  - amplify_flutter_ios (0.0.1):
+    - Amplify (= 1.29.2)
+    - AWSPluginsCore (= 1.29.2)
+    - Flutter
+  - amplify_secure_storage (0.0.1):
+    - Flutter
+  - AmplifyPlugins/AWSAPIPlugin (1.29.2):
+    - AppSyncRealTimeClient (~> 3.0)
+    - AWSCore (~> 2.30.1)
+    - AWSPluginsCore (= 1.29.2)
+  - AppSyncRealTimeClient (3.1.1):
+    - Starscream (= 4.0.4)
+  - AWSCore (2.30.4)
+  - AWSPluginsCore (1.29.2):
+    - Amplify (= 1.29.2)
+    - AWSCore (~> 2.30.1)
+  - connectivity_plus (0.0.1):
+    - Flutter
+    - ReachabilitySwift
+  - device_info_plus (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+  - flutter_inappwebview (0.0.1):
+    - Flutter
+    - flutter_inappwebview/Core (= 0.0.1)
+    - OrderedSet (~> 5.0)
+  - flutter_inappwebview/Core (0.0.1):
+    - Flutter
+    - OrderedSet (~> 5.0)
+  - flutter_jailbreak_detection (1.0.0):
+    - Flutter
+    - IOSSecuritySuite
+  - fluttertoast (0.0.2):
+    - Flutter
+    - Toast
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - freerasp (1.0.0):
+    - Flutter
+  - GoogleDataTransport (9.2.5):
+    - GoogleUtilities/Environment (~> 7.7)
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleMLKit/BarcodeScanning (4.0.0):
+    - GoogleMLKit/MLKitCore
+    - MLKitBarcodeScanning (~> 3.0.0)
+  - GoogleMLKit/MLKitCore (4.0.0):
+    - MLKitCommon (~> 9.0.0)
+  - GoogleToolboxForMac/DebugUtils (2.3.2):
+    - GoogleToolboxForMac/Defines (= 2.3.2)
+  - GoogleToolboxForMac/Defines (2.3.2)
+  - GoogleToolboxForMac/Logger (2.3.2):
+    - GoogleToolboxForMac/Defines (= 2.3.2)
+  - "GoogleToolboxForMac/NSData+zlib (2.3.2)":
+    - GoogleToolboxForMac/Defines (= 2.3.2)
+  - "GoogleToolboxForMac/NSDictionary+URLArguments (2.3.2)":
+    - GoogleToolboxForMac/DebugUtils (= 2.3.2)
+    - GoogleToolboxForMac/Defines (= 2.3.2)
+    - "GoogleToolboxForMac/NSString+URLArguments (= 2.3.2)"
+  - "GoogleToolboxForMac/NSString+URLArguments (2.3.2)"
+  - GoogleUtilities/Environment (7.11.5):
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/Logger (7.11.5):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/UserDefaults (7.11.5):
+    - GoogleUtilities/Logger
+  - GoogleUtilitiesComponents (1.1.0):
+    - GoogleUtilities/Logger
+  - GTMSessionFetcher/Core (2.3.0)
+  - image_picker_ios (0.0.1):
+    - Flutter
+  - IOSSecuritySuite (1.9.10)
+  - LaunchDarkly (9.0.2):
+    - LaunchDarkly/Core (= 9.0.2)
+  - LaunchDarkly/Core (9.0.2):
+    - LDSwiftEventSource (= 3.1.1)
+  - launchdarkly_flutter_client_sdk (0.0.1):
+    - Flutter
+    - LaunchDarkly (= 9.0.2)
+  - LDSwiftEventSource (3.1.1)
+  - map_launcher (0.0.1):
+    - Flutter
+  - MLImage (1.0.0-beta4)
+  - MLKitBarcodeScanning (3.0.0):
+    - MLKitCommon (~> 9.0)
+    - MLKitVision (~> 5.0)
+  - MLKitCommon (9.0.0):
+    - GoogleDataTransport (~> 9.0)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
+    - GoogleUtilities/UserDefaults (~> 7.0)
+    - GoogleUtilitiesComponents (~> 1.0)
+    - GTMSessionFetcher/Core (< 3.0, >= 1.1)
+  - MLKitVision (5.0.0):
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - GTMSessionFetcher/Core (< 3.0, >= 1.1)
+    - MLImage (= 1.0.0-beta4)
+    - MLKitCommon (~> 9.0)
+  - mobile_scanner (3.2.0):
+    - Flutter
+    - GoogleMLKit/BarcodeScanning (~> 4.0.0)
+  - nanopb (2.30909.0):
+    - nanopb/decode (= 2.30909.0)
+    - nanopb/encode (= 2.30909.0)
+  - nanopb/decode (2.30909.0)
+  - nanopb/encode (2.30909.0)
+  - OrderedSet (5.0.0)
+  - package_info_plus (0.4.5):
+    - Flutter
+  - path_provider_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - PromisesObjC (2.3.1)
+  - ReachabilitySwift (5.0.0)
+  - Sentry/HybridSDK (8.8.0):
+    - SentryPrivate (= 8.8.0)
+  - sentry_flutter (0.0.1):
+    - Flutter
+    - FlutterMacOS
+    - Sentry/HybridSDK (= 8.8.0)
+  - SentryPrivate (8.8.0)
+  - share_plus (0.0.1):
+    - Flutter
+  - shared_preferences_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - sqflite (0.0.3):
+    - Flutter
+    - FMDB (>= 2.7.5)
+  - Starscream (4.0.4)
+  - Toast (4.0.0)
+  - url_launcher_ios (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Adyen (= 5.4.1)
+  - amplify_api_ios (from `.symlinks/plugins/amplify_api_ios/ios`)
+  - amplify_auth_cognito_ios (from `.symlinks/plugins/amplify_auth_cognito_ios/ios`)
+  - amplify_flutter_ios (from `.symlinks/plugins/amplify_flutter_ios/ios`)
+  - amplify_secure_storage (from `.symlinks/plugins/amplify_secure_storage/ios`)
+  - connectivity_plus (from `.symlinks/plugins/connectivity_plus/ios`)
+  - device_info_plus (from `.symlinks/plugins/device_info_plus/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_inappwebview (from `.symlinks/plugins/flutter_inappwebview/ios`)
+  - flutter_jailbreak_detection (from `.symlinks/plugins/flutter_jailbreak_detection/ios`)
+  - fluttertoast (from `.symlinks/plugins/fluttertoast/ios`)
+  - freerasp (from `.symlinks/plugins/freerasp/ios`)
+  - image_picker_ios (from `.symlinks/plugins/image_picker_ios/ios`)
+  - launchdarkly_flutter_client_sdk (from `.symlinks/plugins/launchdarkly_flutter_client_sdk/ios`)
+  - map_launcher (from `.symlinks/plugins/map_launcher/ios`)
+  - mobile_scanner (from `.symlinks/plugins/mobile_scanner/ios`)
+  - package_info_plus (from `.symlinks/plugins/package_info_plus/ios`)
+  - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/darwin`)
+  - sentry_flutter (from `.symlinks/plugins/sentry_flutter/ios`)
+  - share_plus (from `.symlinks/plugins/share_plus/ios`)
+  - shared_preferences_foundation (from `.symlinks/plugins/shared_preferences_foundation/darwin`)
+  - sqflite (from `.symlinks/plugins/sqflite/ios`)
+  - url_launcher_ios (from `.symlinks/plugins/url_launcher_ios/ios`)
+
+SPEC REPOS:
+  trunk:
+    - Adyen
+    - Adyen3DS2
+    - AdyenNetworking
+    - Amplify
+    - AmplifyPlugins
+    - AppSyncRealTimeClient
+    - AWSCore
+    - AWSPluginsCore
+    - FMDB
+    - GoogleDataTransport
+    - GoogleMLKit
+    - GoogleToolboxForMac
+    - GoogleUtilities
+    - GoogleUtilitiesComponents
+    - GTMSessionFetcher
+    - IOSSecuritySuite
+    - LaunchDarkly
+    - LDSwiftEventSource
+    - MLImage
+    - MLKitBarcodeScanning
+    - MLKitCommon
+    - MLKitVision
+    - nanopb
+    - OrderedSet
+    - PromisesObjC
+    - ReachabilitySwift
+    - Sentry
+    - SentryPrivate
+    - Starscream
+    - Toast
+
+EXTERNAL SOURCES:
+  amplify_api_ios:
+    :path: ".symlinks/plugins/amplify_api_ios/ios"
+  amplify_auth_cognito_ios:
+    :path: ".symlinks/plugins/amplify_auth_cognito_ios/ios"
+  amplify_flutter_ios:
+    :path: ".symlinks/plugins/amplify_flutter_ios/ios"
+  amplify_secure_storage:
+    :path: ".symlinks/plugins/amplify_secure_storage/ios"
+  connectivity_plus:
+    :path: ".symlinks/plugins/connectivity_plus/ios"
+  device_info_plus:
+    :path: ".symlinks/plugins/device_info_plus/ios"
+  Flutter:
+    :path: Flutter
+  flutter_inappwebview:
+    :path: ".symlinks/plugins/flutter_inappwebview/ios"
+  flutter_jailbreak_detection:
+    :path: ".symlinks/plugins/flutter_jailbreak_detection/ios"
+  fluttertoast:
+    :path: ".symlinks/plugins/fluttertoast/ios"
+  freerasp:
+    :path: ".symlinks/plugins/freerasp/ios"
+  image_picker_ios:
+    :path: ".symlinks/plugins/image_picker_ios/ios"
+  launchdarkly_flutter_client_sdk:
+    :path: ".symlinks/plugins/launchdarkly_flutter_client_sdk/ios"
+  map_launcher:
+    :path: ".symlinks/plugins/map_launcher/ios"
+  mobile_scanner:
+    :path: ".symlinks/plugins/mobile_scanner/ios"
+  package_info_plus:
+    :path: ".symlinks/plugins/package_info_plus/ios"
+  path_provider_foundation:
+    :path: ".symlinks/plugins/path_provider_foundation/darwin"
+  sentry_flutter:
+    :path: ".symlinks/plugins/sentry_flutter/ios"
+  share_plus:
+    :path: ".symlinks/plugins/share_plus/ios"
+  shared_preferences_foundation:
+    :path: ".symlinks/plugins/shared_preferences_foundation/darwin"
+  sqflite:
+    :path: ".symlinks/plugins/sqflite/ios"
+  url_launcher_ios:
+    :path: ".symlinks/plugins/url_launcher_ios/ios"
+
+SPEC CHECKSUMS:
+  Adyen: c176e4770fb8ac01559459dde00d78f63b5c55ba
+  Adyen3DS2: 868f5fe2dc7dba62c97be5821b95d2838e6540d8
+  AdyenNetworking: 49e447632b542e08c6dd06bb47ea1077a8adecb7
+  Amplify: 955400b4b5f29832357f682e15c659d049028306
+  amplify_api_ios: 931226e738de68fd845bc8897f8156357279e8cd
+  amplify_auth_cognito_ios: 34fde9ef483cc1a822086d70b6b3dc29e4dd8fba
+  amplify_flutter_ios: 9da0b5e66278d761b28a6df6af4e6df4829536d9
+  amplify_secure_storage: 501cbdac671a050090d48dfcc002d5637d3f4a55
+  AmplifyPlugins: 9ce2e86f2051f0ec38fcf4376efb936b6c617cce
+  AppSyncRealTimeClient: b33e3139fb3e71ee129698aee19de88bc6ddafd8
+  AWSCore: 19b8233fe2d0ed3ccf5cff833a615814282cdc90
+  AWSPluginsCore: 787b6199af91f6662171cbd66ad9a876530aed50
+  connectivity_plus: 413a8857dd5d9f1c399a39130850d02fe0feaf7e
+  device_info_plus: e5c5da33f982a436e103237c0c85f9031142abed
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  flutter_inappwebview: 166ed136c90e43c69b451f6d825da379be66c847
+  flutter_jailbreak_detection: c5bf66ff6c0c4230769b6ba0bd63eb6ac4148a76
+  fluttertoast: 48c57db1b71b0ce9e6bba9f31c940ff4b001293c
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  freerasp: bb827d80b926abcfb8f4ca4ff4557c2fe4a5ae21
+  GoogleDataTransport: 54dee9d48d14580407f8f5fbf2f496e92437a2f2
+  GoogleMLKit: 2bd0dc6253c4d4f227aad460f69215a504b2980e
+  GoogleToolboxForMac: 8bef7c7c5cf7291c687cf5354f39f9db6399ad34
+  GoogleUtilities: 13e2c67ede716b8741c7989e26893d151b2b2084
+  GoogleUtilitiesComponents: 679b2c881db3b615a2777504623df6122dd20afe
+  GTMSessionFetcher: 3a63d75eecd6aa32c2fc79f578064e1214dfdec2
+  image_picker_ios: 4a8aadfbb6dc30ad5141a2ce3832af9214a705b5
+  IOSSecuritySuite: e764318117aabd1f894cbdfc5ac013a59352953d
+  LaunchDarkly: 8f517dee5c26972440a3f1488ca47194137a5eaa
+  launchdarkly_flutter_client_sdk: 906b0b1be4d11bcee2e868a36cb41bffa84b9e21
+  LDSwiftEventSource: 3f9ff84ca80677f9a4f8596757dcb50026e4a13c
+  map_launcher: e325db1261d029ff33e08e03baccffe09593ffea
+  MLImage: 7bb7c4264164ade9bf64f679b40fb29c8f33ee9b
+  MLKitBarcodeScanning: 04e264482c5f3810cb89ebc134ef6b61e67db505
+  MLKitCommon: c1b791c3e667091918d91bda4bba69a91011e390
+  MLKitVision: 8baa5f46ee3352614169b85250574fde38c36f49
+  mobile_scanner: 47056db0c04027ea5f41a716385542da28574662
+  nanopb: b552cce312b6c8484180ef47159bc0f65a1f0431
+  OrderedSet: aaeb196f7fef5a9edf55d89760da9176ad40b93c
+  package_info_plus: 6c92f08e1f853dc01228d6f553146438dafcd14e
+  path_provider_foundation: 29f094ae23ebbca9d3d0cec13889cd9060c0e943
+  PromisesObjC: c50d2056b5253dadbd6c2bea79b0674bd5a52fa4
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  Sentry: 927dfb29d18a14d924229a59cc2ad149f43349f2
+  sentry_flutter: cf7da03b65520b631330ecb498deb592aa7640be
+  SentryPrivate: 4350d865f898224ab9fa02b37d6ee7fbb623f47e
+  share_plus: 599aa54e4ea31d4b4c0e9c911bcc26c55e791028
+  shared_preferences_foundation: 986fc17f3d3251412d18b0265f9c64113a8c2472
+  sqflite: 31f7eba61e3074736dff8807a9b41581e4f7f15a
+  Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+  url_launcher_ios: 08a3dfac5fb39e8759aeb0abbd5d9480f30fc8b4
+
+PODFILE CHECKSUM: 8da76ef7c76a882863ee30fdcf6c2c4676d9339c
+
+COCOAPODS: 1.14.2
